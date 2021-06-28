@@ -20,7 +20,7 @@ Done
 **Tests to be configurable to run on various OSes ( Mac, Linux etc )**<br /> 
 Tests are configured in such a way that they can be run on all OS.<br /> 
 
-**Tests to be able to run in parallel**<br /> 
+**Tests to be able to run in parallel**
 - command => pytest -n 4 tests (here 4 shows number of workers)<br /> 
 - Also, following library is needed to run tests in parallel -<br /> 
   pip install pytest-xdist<br /> 
@@ -28,6 +28,6 @@ Tests are configured in such a way that they can be run on all OS.<br />
 **Framework overview :**<br /> 
 ![image](https://user-images.githubusercontent.com/53708382/123697752-e684ba80-d87a-11eb-966f-4bf883ebb80c.png)<br /> 
 
-**Items couldn't add in this framework due to time constraints:**<br /> 
+**Items couldn't add in this framework due to time constraints:**
 - Logger<br /> 
 - Allure Reporting for better reporting.<br /> 
